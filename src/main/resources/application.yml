@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:Root123!#R@localhost:27017/wishlist_db?authSource=admin
+#      authentication-database: "admin"
+#      username: "root"
+#      password: "Root123!#R"
+#      database: "wishlist_db"
+#      port: 27017
+#      host: localhost
+
+server:
+  port : 8081
